@@ -1,17 +1,4 @@
 [gd_scene format=3 uid="uid://du8ai7g505mm1"]
 
-[node name="Control" type="Control"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="Button" type="Button" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_right = 0.067
-anchor_bottom = 0.119
-offset_right = -0.184006
-offset_bottom = -0.112
+[node name="Player" type="Area2D"]
+metadata/_edit_group_ = true
